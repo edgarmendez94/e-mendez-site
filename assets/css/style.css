@@ -1,23 +1,29 @@
+*{
+
+    border: solid 1px;
+
+}
+
 body{
 
-    display: flex;
-    border: 5px black;
+   
+    
 }
 
 nav{
 
-    border: 5px black;
+    
 
 }
 
 main{
 
-    border: 5px black;
+   
 
 }
 
 aside{
 
-    border: 5px black;
+   
 
 }
