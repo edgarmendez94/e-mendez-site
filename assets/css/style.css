@@ -1,6 +1,8 @@
 *{
 
     border: solid 1px;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -11,14 +13,36 @@ body{
 }
 
 header{
-
+    height: 100px;
     background-color: brown;
    
 
 }
 
+#main-header h1{
+
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    color: brown;
+    background-color: aqua;
+    max-width: 300px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    
+}
+
+#navi{
+    border: none;
+    position: absolute;
+    right: 8%;
+    top: 30px;
+
+}
+
 #navi ul{
 
+    border: none;
     list-style-type: none;
   
     margin-bottom: 20px;
@@ -26,11 +50,21 @@ header{
 }
 
 #navi ul li{
-
+    border: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
     display: inline;
     float: right;
+    padding: 10px;
+    text-decoration: underline solid rgb(24, 179, 0) 5px;
+   
     
 
+}
+
+#navi ul li a{
+    border: none;
+    color: rgb(24, 179, 0);
 }
 
 
@@ -50,6 +84,8 @@ aside{
 
 footer{
 
+  background-color: blueviolet;
   height: 50px;
+  bottom: 0;
 
 }
