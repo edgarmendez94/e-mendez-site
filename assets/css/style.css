@@ -73,10 +73,16 @@ header{
 
 main{
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgb(214, 35, 35);
     color: aliceblue;
     min-height: 80vh;
    
+
+}
+
+.about-me-content{
+
+    height: 300px;
 
 }
 
@@ -123,10 +129,12 @@ main{
   }
 
 aside {
+    float: left;
     flex: 1;
     background-color: #b9c6ae;
     padding: 80px;
     text-align: left;
+    height: 1000px;
   }
 
 footer{
