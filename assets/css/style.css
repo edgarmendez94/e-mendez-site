@@ -83,13 +83,10 @@ main{
 .about-me-content{
 
     height: 300px;
+    font-size: 30px;
 
 }
 
-.content-card-big{
-
-
-}
 
 .image-1{
     border: solid 7px blueviolet;
@@ -108,7 +105,7 @@ main{
     text-align: center;
     position: relative;
     top: -67px;
-    right: -6px;
+    right: -470px;
     
 }
 
@@ -120,25 +117,68 @@ main{
     text-align: center;
     position: relative;
     top: -84px;
-    right: -6px;
+    right: -470px;
     
 }
-.content-card-big:hover .image-1 {
+.content-card-big .image-1:hover {
     opacity: 1;
     border: solid 7px rgb(8, 209, 68);
   }
 
 aside {
     float: left;
-    flex: 1;
     background-color: #b9c6ae;
     padding: 80px;
     text-align: left;
-    height: 1000px;
+    height: 1408px;
+    width: 15%;
+    font-size: 60px;
   }
+
+  .content-card-med{
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    height: 600px;
+
+  }
+
+  .content-card-med img{
+
+    position: relative;
+    width: 400px;
+    margin: 10px;
+    border: solid 7px blueviolet;
+    opacity: 0.7;
+    
+
+  }
+
+  .content-card-med img:hover{
+
+    opacity: 1;
+    border: solid 7px rgb(8, 209, 68);
+
+  }
+
+  @media screen and (max-width: 768px) {
+      
+    main,
+    nav,
+    aside,
+
+    .content-card-med {
+      flex-direction: column;
+    }
+
+  }
+   
 
 footer{
 
+    font-size: 30px;
+  text-align: center;
   background-color: blueviolet;
   height: 50px;
   bottom: 0;
